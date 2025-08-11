@@ -1,116 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Geoffrey Kiuna - Cybersecurity Portfolio">
-    <title>Geoffrey Kiuna | Cybersecurity Portfolio</title>
-    <style>
-        /* Reset some default styles */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Geoffrey Kiuna | Cybersecurity Portfolio</title>
+  <style>
+    /* ===== Global Styles ===== */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #0a0a0a;
+      color: #e0e0e0;
+      line-height: 1.6;
+    }
 
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #0a0a0a;
-            color: #f4f4f4;
-            line-height: 1.6;
-        }
+    a {
+      color: #00ffc8;
+      text-decoration: none;
+    }
+    a:hover {
+      text-shadow: 0 0 5px #00ffc8;
+    }
 
-        header {
-            background-color: #111;
-            padding: 20px 0;
-            text-align: center;
-            border-bottom: 2px solid #00ff99;
-        }
+    header {
+      background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+      padding: 20px 0;
+      text-align: center;
+      border-bottom: 2px solid #00ffc8;
+    }
 
-        header h1 {
-            color: #00ff99;
-            font-size: 2rem;
-        }
+    header img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      border: 3px solid #00ffc8;
+      box-shadow: 0 0 15px #00ffc8;
+    }
 
-        nav {
-            margin-top: 10px;
-        }
+    header h1 {
+      margin: 10px 0 5px;
+      color: #00ffc8;
+      text-shadow: 0 0 10px #00ffc8;
+    }
 
-        nav a {
-            color: #f4f4f4;
-            text-decoration: none;
-            margin: 0 15px;
-            transition: color 0.3s ease;
-        }
+    header p {
+      font-size: 1.1rem;
+      color: #ccc;
+    }
 
-        nav a:hover {
-            color: #00ff99;
-        }
+    nav {
+      text-align: center;
+      background-color: #111;
+      padding: 10px;
+    }
+    nav a {
+      margin: 0 15px;
+      font-weight: bold;
+    }
 
-        section {
-            padding: 40px 20px;
-            max-width: 900px;
-            margin: auto;
-        }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
 
-        h2 {
-            color: #00ff99;
-            margin-bottom: 15px;
-        }
+    h2 {
+      color: #00ffc8;
+      text-shadow: 0 0 5px #00ffc8;
+      border-bottom: 2px solid #00ffc8;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+    }
 
-        .project {
-            background-color: #1a1a1a;
-            padding: 20px;
-            border-radius: 8px;
-            margin-bottom: 20px;
-        }
+    .project, .lab {
+      background-color: #111;
+      border: 1px solid #00ffc8;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px rgba(0, 255, 200, 0.2);
+    }
 
-        footer {
-            background-color: #111;
-            text-align: center;
-            padding: 15px;
-            margin-top: 30px;
-            font-size: 0.9rem;
-            color: #888;
-        }
-    </style>
+    .project img, .lab img {
+      width: 100%;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #111;
+      border-top: 2px solid #00ffc8;
+      color: #777;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Geoffrey Kiuna</h1>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello, I'm Geoffrey, a Cybersecurity Enthusiast based in Nairobi, Kenya. I specialize in analyzing network traffic, penetration testing, and creating secure software solutions. I’m passionate about helping businesses stay secure in today’s digital landscape.</p>
-    </section>
+  <!-- ===== Header Section ===== -->
+  <header>
+    <img src="your-photo.jpg" alt="Your Photo">
+    <h1>Geoffrey Kiuna</h1>
+    <p>Cybersecurity Enthusiast | Technical & IT Support</p>
+  </header>
 
-    <section id="projects">
-        <h2>Featured Projects</h2>
-        <div class="project">
-            <h3>Network Vulnerability Scanner</h3>
-            <p>A Python-based tool that scans networks for common vulnerabilities and misconfigurations.</p>
-        </div>
-        <div class="project">
-            <h3>Incident Response Toolkit</h3>
-            <p>A collection of scripts and resources for quickly responding to cybersecurity incidents.</p>
-        </div>
-    </section>
+  <!-- ===== Navigation ===== -->
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#resume">Resume</a>
+    <a href="#projects">Projects</a>
+    <a href="#labs">Lab Challenges</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:geoffreykiuna071@gmail.com">geoffreykiuna071@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/geofrey-kiuna-global409" target="_blank">linkedin.com/in/geofrey-kiuna-global409</a></p>
-        <p>GitHub: <a href="https://github.com/KiunaJeff" target="_blank">github.com/KiunaJeff</a></p>
-    </section>
+  <!-- ===== Home ===== -->
+  <section id="home">
+    <h2>Welcome</h2>
+    <p>Hello! I’m Geoffrey Kiuna, a cybersecurity enthusiast and technical support specialist passionate about securing digital environments and solving real-world IT challenges. This portfolio showcases my work, experience, and hands-on security projects.</p>
+  </section>
 
-    <footer>
-        &copy; 2025 Geoffrey Kiuna. All rights reserved.
-    </footer>
+  <!-- ===== Resume ===== -->
+  <section id="resume">
+    <h2>Resume</h2>
+    <h3>Academic Background</h3>
+    <p>BSc in Computer Science (Example University, 202X)</p>
+
+    <h3>Work Experience</h3>
+    <ul>
+      <li>Technical Support Specialist – Company Name (Year–Year)</li>
+      <li>IT Support Intern – Company Name (Year–Year)</li>
+    </ul>
+
+    <h3>Certifications</h3>
+    <ul>
+      <li>CompTIA Security+</li>
+      <li>Certified Ethical Hacker (CEH)</li>
+    </ul>
+
+    <h3>Skills</h3>
+    <p>Network Security, Incident Response, Python, Bash Scripting, Vulnerability Assessment, Penetration Testing</p>
+  </section>
+
+  <!-- ===== Projects ===== -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Network Traffic Analysis Tool</h3>
+      <p>Developed a Python-based tool to capture and analyze network packets for anomalies.</p>
+      <img src="project1.jpg" alt="Project Screenshot">
+    </div>
+
+    <div class="project">
+      <h3>Incident Response Playbook</h3>
+      <p>Created a structured guide for handling security incidents in SMEs.</p>
+      <img src="project2.jpg" alt="Project Screenshot">
+    </div>
+
+    <div class="project">
+      <h3>Vulnerability Scanner</h3>
+      <p>Designed an automated scanner to detect outdated software and misconfigurations.</p>
+      <img src="project3.jpg" alt="Project Screenshot">
+    </div>
+  </section>
+
+  <!-- ===== Lab Challenges ===== -->
+  <section id="labs">
+    <h2>Lab Challenges</h2>
+    <div class="lab">
+      <h3>SQL Injection Lab</h3>
+      <p><strong>Problem:</strong> Exploit and mitigate SQL injection vulnerabilities.</p>
+      <p><strong>Approach:</strong> Manual payload testing + automated tools.</p>
+      <p><strong>Tools:</strong> SQLmap, Burp Suite</p>
+      <p><strong>Lessons Learned:</strong> Importance of prepared statements.</p>
+      <img src="lab1.jpg" alt="Lab Screenshot">
+    </div>
+
+    <div class="lab">
+      <h3>Web Application Penetration Test</h3>
+      <p><strong>Problem:</strong> Identify OWASP Top 10 vulnerabilities in a test app.</p>
+      <p><strong>Approach:</strong> Black-box testing with manual validation.</p>
+      <p><strong>Tools:</strong> OWASP ZAP, Nmap</p>
+      <p><strong>Lessons Learned:</strong> Layered defense strategies.</p>
+      <img src="lab2.jpg" alt="Lab Screenshot">
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:geoffreykiuna071@gmail.com">geoffreykiuna071@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/geofrey-kiuna-global409" target="_blank">linkedin.com/in/geofrey-kiuna-global409</a></p>
+    <p>GitHub: <a href="https://github.com/KiunaJeff" target="_blank">github.com/KiunaJeff</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Geoffrey Kiuna | Cybersecurity Portfolio
+  </footer>
+
 </body>
 </html>
