@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTF & Lab Blog | Kiuna Jeff</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #0a0a0a;
+            color: #e6e6e6;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+            padding: 1rem;
+            text-align: center;
+        }
+        header h1 {
+            color: #00ff99;
+        }
+        nav a {
+            color: #00ff99;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            color: #66ffcc;
+        }
+        main {
+            padding: 2rem;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .post-card {
+            background: #121212;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-left: 4px solid #00ff99;
+            transition: transform 0.2s ease-in-out;
+        }
+        .post-card:hover {
+            transform: scale(1.02);
+            background: #1b1b1b;
+        }
+        .post-card h2 {
+            color: #00ff99;
+            margin-top: 0;
+        }
+        .post-card p {
+            color: #cccccc;
+        }
+        .read-more {
+            display: inline-block;
+            margin-top: 1rem;
+            color: #00ff99;
+            text-decoration: none;
+            border: 1px solid #00ff99;
+            padding: 0.4rem 1rem;
+            border-radius: 4px;
+        }
+        .read-more:hover {
+            background: #00ff99;
+            color: #0a0a0a;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>CTF & Lab Blog</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <div class="post-card">
+        <h2>TryHackMe - Blue Room Walkthrough</h2>
+        <small>Published: 12 Aug 2025</small>
+        <p>A beginner-friendly walkthrough of the Blue room on TryHackMe, covering enumeration, exploitation, and privilege escalation.</p>
+        <a href="#" class="read-more">Read More</a>
+    </div>
+
+    <div class="post-card">
+        <h2>HackTheBox - Lame Machine Writeup</h2>
+        <small>Published: 5 Aug 2025</small>
+        <p>Step-by-step exploit of the Lame machine using SMB vulnerabilities and privilege escalation techniques.</p>
+        <a href="#" class="read-more">Read More</a>
+    </div>
+
+    <div class="post-card">
+        <h2>Web App Pentest: SQL Injection Lab</h2>
+        <small>Published: 1 Aug 2025</small>
+        <p>Detailed testing process for exploiting SQL Injection in a lab environment, plus mitigation tips.</p>
+        <a href="#" class="read-more">Read More</a>
+    </div>
+</main>
+
+</body>
+</html>
