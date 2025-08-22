@@ -1,10 +1,9 @@
 ---
-layout: page
+layout: default
 title: "Blog"
 permalink: /blog/
 ---
 
-# Blog
 
 Welcome to my cybersecurity blog!  
 Here you’ll find detailed walkthroughs of CTF challenges, labs, and exploit writeups.
