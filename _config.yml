@@ -44,10 +44,11 @@ nav:
   - title: "Home"
     url: /
   - title: "Blog"
-    url: /posts/
+    url: /blog/
   - title: "Categories"
     url: /categories/
   - title: "Tags"
     url: /tags/
   - title: "About"
     url: /about/
+
