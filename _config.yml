@@ -1,0 +1,53 @@
+# =========================
+#  Site Settings
+# =========================
+title: "Geoffrey Kiuna"
+tagline: "CTF Writeups & Security Lab Walkthroughs"
+description: "Detailed CTF writeups, penetration testing labs, and cybersecurity research."
+url: "https://kiunajeff.github.io"
+baseurl: ""   # leave empty for username.github.io sites
+
+# =========================
+#  Author Information
+# =========================
+author:
+  name: "Geoffrey Kiuna"
+  email: "your-email@example.com"
+  github: "KiunaJeff"
+  linkedin: "your-linkedin-profile"
+  twitter: "your-twitter-handle"
+
+# =========================
+#  Theme Configuration
+# =========================
+remote_theme: "madhathacker/cyber.blog"
+
+# =========================
+#  Plugins
+# =========================
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+
+# =========================
+#  Pagination
+# =========================
+paginate: 5
+paginate_path: "/page:num/"
+
+# =========================
+#  Navigation Links
+# =========================
+nav:
+  - title: "Home"
+    url: /
+  - title: "Blog"
+    url: /posts/
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
+  - title: "About"
+    url: /about/
