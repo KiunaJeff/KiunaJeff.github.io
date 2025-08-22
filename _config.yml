@@ -12,9 +12,9 @@ baseurl: ""   # leave empty for username.github.io sites
 # =========================
 author:
   name: "Geoffrey Kiuna"
-  email: "your-email@example.com"
+  email: "geoffreykiuna071@gmail.com"
   github: "KiunaJeff"
-  linkedin: "your-linkedin-profile"
+  linkedin: "www.linkedin.com/in/geofreykiuna"
   twitter: "your-twitter-handle"
 
 # =========================
@@ -44,7 +44,7 @@ nav:
   - title: "Home"
     url: /
   - title: "Blog"
-    url: /posts/
+    url: /blog/
   - title: "Categories"
     url: /categories/
   - title: "Tags"
