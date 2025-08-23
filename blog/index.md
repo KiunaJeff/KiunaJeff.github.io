@@ -4,15 +4,17 @@ title: Blog
 permalink: /blog/
 ---
 
+# Welcome to My Cybersecurity Blog
 
-# Welcome to my cybersecurity blog!  
-Here you’ll find detailed walkthroughs of CTF challenges, labs, and exploit writeups.
+Here you’ll find detailed walkthroughs of CTF challenges, labs, and exploit writeups covering network security, web security, and more. Explore each post to see step-by-step guides and lessons learned.
 
+---
 
-<ul>
 {% for post in site.posts %}
-  <li>
-    <a href="{{ post.url }}">{{ post.title }}</a> — {{ post.date | date: "%B %d, %Y" }}
-  </li>
+  <article>
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <p><em>{{ post.date | date: "%B %d, %Y" }}</em></p>
+    {{ post.content }}
+    <hr>
+  </article>
 {% endfor %}
-</ul>
