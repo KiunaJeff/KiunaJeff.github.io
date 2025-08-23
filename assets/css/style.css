@@ -228,3 +228,27 @@ article:hover {
     display: block;
   }
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+#back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #6c63ff;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 16px;
+  display: none; /* hidden by default */
+  z-index: 1000;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#back-to-top:hover {
+  background-color: #5752d4;
+  transform: translateY(-2px);
+}
