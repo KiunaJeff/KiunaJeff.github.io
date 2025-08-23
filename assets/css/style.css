@@ -252,3 +252,27 @@ html {
   background-color: #5752d4;
   transform: translateY(-2px);
 }
+
+/* Hero / Profile animation */
+.profile-img, .hero-text {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s forwards;
+}
+
+.hero-text {
+  animation-delay: 0.5s;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+nav ul li a.active {
+  background-color: #4b4b7d; /* active highlight */
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}

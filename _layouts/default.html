@@ -4,40 +4,41 @@
   <meta charset="UTF-8">
   <title>{{ page.title }} | {{ site.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   {%- seo -%}
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-
 </head>
 <body>
   <header>
     <nav>
       <div class="nav-container">
         <div class="logo">{{ site.title }}</div>
-        <div class="hamburger" id="hamburger">
-          &#9776; <!-- Hamburger icon -->
-        </div>
+        <div class="hamburger" id="hamburger">&#9776;</div>
         <ul id="nav-links">
           {% for link in site.nav %}
-            <li><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
+            <li>
+              <a href="{{ link.url | relative_url }}"
+                 class="{% if page.url == link.url %}active{% endif %}">
+                {{ link.title }}
+              </a>
+            </li>
           {% endfor %}
         </ul>
       </div>
     </nav>
-    
   </header>
 
   <main>
     {{ content }}
   </main>
 
+  <!-- Back-to-top button -->
+  <a href="#top" id="back-to-top">&#8679; Top</a>
+
   <footer>
     <p>&copy; {{ site.time | date: "%Y" }} {{ site.author.name }}</p>
   </footer>
-  <a href="#" id="back-to-top">&#8679; Top</a>
 
-
+  <!-- JS -->
   <script src="{{ '/assets/js/nav.js' | relative_url }}"></script>
-
 </body>
 </html>
