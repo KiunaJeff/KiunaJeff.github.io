@@ -52,4 +52,5 @@ nav:
   - title: "About"
     url: /about/
   - title: "Portfolio"
-    url: https://kiunajeff.github.io/
+    url: /  # points to your main portfolio page (index.html)
+
