@@ -10,15 +10,13 @@ Here you’ll find detailed walkthroughs of CTF challenges, labs, and exploit wr
 
 ---
 
-
-<ul>
+<div class="blog-container">
 {% for post in site.posts %}
-  <li>
-    <a href="{{ post.url }}">{{ post.title }}</a> — {{ post.date | date: "%B %d, %Y" }}
-    <p>{{ post.excerpt }}</p>
-  </li>
+  <div class="blog-card">
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <p class="blog-date">{{ post.date | date: "%B %d, %Y" }}</p>
+    <p class="blog-excerpt">{{ post.excerpt }}</p>
+    <a href="{{ post.url }}" class="read-more">Read More →</a>
+  </div>
 {% endfor %}
-</ul>
-
-
-
+</div>
