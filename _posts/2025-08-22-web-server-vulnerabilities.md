@@ -4,6 +4,8 @@ title: "Exploiting Web Server Vulnerabilities"
 date: 2025-08-22
 categories: [Labs, Web Security]
 tags: [web-vulnerabilities, directory-traversal, misconfiguration]
+excerpt: "Learn how I scanned and exploited misconfigured web servers, discovered hidden directories, and accessed sensitive files in a controlled lab environment."
+
 ---
 
 ## Introduction

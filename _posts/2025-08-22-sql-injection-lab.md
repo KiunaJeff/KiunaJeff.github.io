@@ -4,6 +4,8 @@ title: "SQL Injection Lab Walkthrough"
 date: 2025-08-22
 categories: [Labs, Web Security]
 tags: [sql-injection, authentication-bypass, union-select, database]
+excerpt: "A step-by-step guide on identifying and exploiting SQL injection vulnerabilities to bypass authentication and safely extract data from a test database."
+
 ---
 
 ## Introduction
