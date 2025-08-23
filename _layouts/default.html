@@ -12,12 +12,19 @@
 <body>
   <header>
     <nav>
-      <ul>
-        {% for link in site.nav %}
-          <li><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
-        {% endfor %}
-      </ul>
+      <div class="nav-container">
+        <div class="logo">{{ site.title }}</div>
+        <div class="hamburger" id="hamburger">
+          &#9776; <!-- Hamburger icon -->
+        </div>
+        <ul id="nav-links">
+          {% for link in site.nav %}
+            <li><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
     </nav>
+    
   </header>
 
   <main>
@@ -27,5 +34,8 @@
   <footer>
     <p>&copy; {{ site.time | date: "%Y" }} {{ site.author.name }}</p>
   </footer>
+
+  <script src="{{ '/assets/js/nav.js' | relative_url }}"></script>
+
 </body>
 </html>
