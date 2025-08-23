@@ -5,10 +5,9 @@ permalink: /blog/
 ---
 
 
-Welcome to my cybersecurity blog!  
+# Welcome to my cybersecurity blog!  
 Here you’ll find detailed walkthroughs of CTF challenges, labs, and exploit writeups.
 
----
 
 <ul>
 {% for post in site.posts %}
