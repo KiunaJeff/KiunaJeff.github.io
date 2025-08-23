@@ -58,3 +58,40 @@ footer {
 article {
   margin-bottom: 40px;
 }
+
+/* Main content */
+main {
+  max-width: 900px; /* limits content width for readability */
+  margin: 30px auto;
+  padding: 0 15px;
+  line-height: 1.6;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+/* Blog post title */
+article h2 {
+  color: #1e1e2f;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+/* Blog post date */
+article em {
+  font-size: 0.9em;
+  color: #555;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Blog post content spacing */
+article p, article pre, article code {
+  margin-bottom: 15px;
+}
+
+/* Horizontal rule between posts */
+article hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 30px 0;
+}
