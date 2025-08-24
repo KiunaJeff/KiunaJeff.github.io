@@ -327,3 +327,12 @@ nav ul li a.active {
 .read-more:hover {
   text-decoration: underline;
 }
+
+/* Style lab screenshots */
+.post-content img {
+  display: block;
+  margin: 20px auto;   /* centers the image */
+  max-width: 80%;      /* keeps images from being too wide */
+  border-radius: 8px;  /* adds smooth corners */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15); /* soft shadow */
+}
